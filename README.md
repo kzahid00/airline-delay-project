@@ -11,6 +11,7 @@ TODO
 
 ## Branch 1: Delta Airlines' Higher Average Delay
 ![Branch 1](Images/Tree1.png)
+
 Delta Airlines shows a higher average departure delay than its peer airlines, prompting an analysis into the drivers behind this difference. 
 
 ### Context
@@ -38,6 +39,7 @@ While this pattern is observed across all airlines, the magnitude of Delta’s d
 
 ## Branch 2: July's Higher Average Delay
 ![Branch 2](Images/Tree2.png)
+
 July has the highest average departure delay of any month, prompting analysis into the drivers behind this seasonal pattern. 
 
 ### Context
