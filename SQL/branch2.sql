@@ -66,3 +66,24 @@ SELECT
 FROM [AirlineDelaysDB].[dbo].[delayed_flights_only]
 WHERE MONTH(Date_MM_DD_YYYY) IN (6, 7)
 GROUP BY MONTH(Date_MM_DD_YYYY);
+
+
+-- Total number of delayed flights by month
+-- Used to compare delayed-flight volume against average delay severity
+SELECT
+    MONTH(Date_MM_DD_YYYY) AS month_of_flight,
+    COUNT(*) AS no_of_delayed_flights
+FROM [AirlineDelaysDB].[dbo].[delayed_flights_only]
+GROUP BY MONTH(Date_MM_DD_YYYY)
+ORDER BY month_of_flight;
+
+
+-- Total number of flights by month
+-- Used to assess whether overall flight volume contributes to higher average delays
+SELECT
+    MONTH(Date_MM_DD_YYYY) AS month_of_flight,
+    COUNT(*) AS no_of_total_flights
+FROM [AirlineDelaysDB].[dbo].[Airline Data CSV]
+GROUP BY MONTH(Date_MM_DD_YYYY)
+ORDER BY month_of_flight;
+
