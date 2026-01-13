@@ -6,8 +6,11 @@ TODO
 ## Exploratory Data Analysis
 ![EDA Visuals](Images/EDA.png)
 
-TODO
+## Observations
 
+- Delays exhibit seasonality, with higher average delays during summer months, particularly July, and lower delays toward the end of the year. This suggests congestion and demand-driven effects rather than random variation.
+- Average delay varies by airline, indicating that operational practices or network structure may contribute to differences in delay performance.
+- Average delay increases as the day progresses, consistent with delay propagation effects where earlier disruptions compound over time.
 
 ## Branch 1: Delta Airlines' Higher Average Delay
 Delta Airlines shows a higher average departure delay than its peer airlines, prompting an analysis into the drivers behind this difference. 
