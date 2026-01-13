@@ -1,7 +1,7 @@
 # Airline Delay Project
 
 ## Introduction
-TODO
+This project analyzes flight delays across multiple airlines during a defined time period to better understand when and why delays occur. The analysis uses publicly available on-time performance data from the U.S. Department of Transportation’s Bureau of Transportation Statistics (TranStats), focusing on outbound flights from Chicago O’Hare International Airport (ORD) in 2019 for three major carriers: United Airlines, American Airlines, and Delta Airlines. I chose this dataset because flight delays are a common operational issue with clear real-world impact, and the data can be used for time-based and categorical analysis. The analysis explores delay patterns by airline and month of the year, examines how delays vary by time of day, and looks at reported delay reasons such as weather and operational factors.
 
 ## Exploratory Data Analysis
 ![EDA Visuals](Images/EDA.png)
